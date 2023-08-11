@@ -1,0 +1,514 @@
+
+<html>
+<head>
+<title> Toyota CoNcept Series </title>
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+</head>
+
+<style>
+
+  body{
+    font-family: 'Raleway', sans-serif;
+
+  }
+
+
+* { 
+   margin:0;
+   padding:0;
+   }
+
+
+.banner{
+         width:100%;
+         height:400vh;
+         background-size:cover;
+         background-center:center;  
+         } 
+
+ .navbar{
+ 	   width:85% ;
+ 	   margin:auto ;
+ 	   padding: 35px 0;
+ 	   display:flex;
+ 	   align-items:center;
+ 	   justify-content:space-between;
+      transition: transform 1s;  
+
+ 	}
+
+   .navbar a:hover{
+
+               color:darkorange;
+               background-color:whitesmoke;
+               border-radius:20px;
+               transform:scale(1.4);
+            }
+
+.navbar ul li{
+     list-style:none ;
+     display:inline-block ;
+     margin: 0 20px; 
+
+    }   
+
+
+.navbar ul li a{
+     text-decoration:none;
+     color:black;
+     text-transform:uppercase;
+     font-weight:bolder;
+   }
+
+
+.navbar ul li::after{
+
+            content:'';
+            height:3px;
+            width:0;
+            background:#009688;
+            position:absolute;
+            left:0;
+            bottom:-10px;
+            transform:0.5s;
+}
+ 
+ .navbar ul li:hover::after{
+      width:100%;
+
+  }
+
+
+ .logo{
+      width:80%;
+      cursor:pointer;
+      border-radius:10px;
+      }
+
+p{
+   color:black;
+   font-weight:bold;
+   padding-left:18px;
+   text-shadow: 2px 1px yellow;
+  }
+
+
+   h1{
+        color:purple;
+        text-align:center;
+        cursor:pointer;
+         font-weight:bolder;
+         font-size:70px;
+        margin:20px auto;
+        text-shadow:2px 1px cornflowerblue;
+   }     
+
+  h5{
+  	  font-size:120%;
+  	  color:darkorange;
+      text-shadow:2px 2px black;
+  } 
+
+ h2{
+     font-size:100%;
+     color:purple;
+     padding-left:15px;
+     padding-bottom:15px;
+  }
+
+  footer a{
+    font-size:200%;
+     color:whitesmoke;
+     cursor:pointer;
+     text-decoration: none;
+
+  } 
+
+footer{
+    background:linear-gradient(black,grey);
+}
+  button{
+     width:150px ;
+       padding:15px 0 ;
+       text-align:center ;
+       border-radius:25px ;
+       margin:20px 10px ;
+       font-weight:bold;
+       border:2px solid  black ;
+       background-color:purple;
+       color:whitesmoke;
+       cursor:pointer;
+       position: relative;
+       overflow:hidden;
+       transition: transform 1s;
+  }
+
+  button:hover{
+       border:none;
+        transform:scale(1.2);
+ 
+ }
+
+ h3{
+   float:right;
+   font-size:200%;
+     color:purple;
+     padding-right:120px;
+     margin-top:-30px ;
+
+ }
+
+ h4{
+    font-size:200%;
+     color:whitesmoke;
+     padding-left:15px;
+     padding-bottom:15px;
+ }
+
+
+  img{
+    transition: transform 1.5s; 
+  }
+
+
+
+ img:hover span{
+          width:100%;
+ } 
+
+
+ img:hover{
+        border:none;
+        transform:scale(1.1);
+ 
+ }
+
+ .slide{
+     transition: transform 1.2s; 
+ }
+
+ .slide:hover{
+        border:none;
+        transform:scale(1.0);
+ 
+ }
+
+
+ .ass{
+     box-sizing: border-box;
+     min-height:150px;
+     background:linear-gradient(black,purple);
+ }
+
+ #flip{
+     transition: transform 0.8s;
+  transform-style: preserve-3d;
+  
+ }
+
+ #flip:hover{
+    transform: rotateY(180deg);
+
+}
+
+ }
+
+ .check{
+    padding-right:120px;
+    margin-left:700px;
+
+ }
+
+ .cars{
+    float:right;
+
+ }
+
+ .right{
+     position: absolute;
+     left:95%;
+     transform:translate(-90%,-90%);
+      width: 600px;
+      padding: 30px;
+      padding-bottom:150px;
+      text-align:justify-all;
+   display:flex;
+ }
+
+ .left{
+    position: absolute;
+     left:55%;
+    padding-left:270px;
+     transform:translate(-20%,-20%);
+     padding-bottom:990px ;
+     text-align:justify;
+
+ }
+
+ .name{
+     display:inline-flex;
+ }
+
+ 
+
+.p1{
+   position:absolute;
+   justify-content:space-between;
+   color:whitesmoke;
+   font-size:30px;
+   font-weight:bolder;
+   padding-top:50px;
+   padding-left:20px;
+
+ }
+
+ #head1{
+    float: left;
+ }
+
+ #head2{
+    float:right;
+ }
+
+
+
+</style>
+
+
+<body>
+
+
+
+  
+<div class="banner">
+<div class="navbar">
+
+<left><img src="https://images01.nicepage.com/29/e2/29e256716bbae54c64072fdbb8b5d080.jpeg"  class="logo"  width="80px" height="80px"></left>
+ 
+<h5 data-aos="fade-down">~All NeW ToYoTa CoNcEpT SeRiEs~</h5>
+
+
+<ul>
+
+<li><a href="#">Home</a></li>
+
+<li><a href="#">About</a></li>
+
+<li><a href="#">Designs</a></li>
+
+<li><a href="#">Features</a></li>
+
+<li><a href="validationform.html">Book Now</a></li>
+
+</ul>
+
+</div>
+
+<h1 data-aos="fade-right">Toyota CoNcept I-Series </h1>
+
+<center><img class="mySlides" src="https://images01.nicepage.com/75/02/7502b12d9a12f809e3996ea2e26b5c30.jpeg" alt="cars" width="1000px"  height="350px"></center>
+
+<center><img class="mySlides" src="https://images6.alphacoders.com/104/1045866.jpg" alt="cars" width="771px"  height="433px"></center>
+
+<center><img class="mySlides" src="https://i.ytimg.com/vi/4ldPfyNH9e4/maxresdefault.jpg" alt="cars" width="800px"  height="433px"></center>
+
+<center><p data-aos="fade-left">Toyota Concept-i and its forward-thinking UX hold a mirror up to a future that is warm,<br> friendly, engaging and, most of all—fun. Without further ado, meet Concept-i.</p></center>
+<br><br>
+
+<h1>Toyota Model 230QR-8 </h1>
+
+<left><img src="https://images01.nicepage.com/6f/5d/6f5de08df6c1a4f14c65050e1ff59f2c.jpeg" alt="model 230QR-8"  width="710px" height="400px" data-aos="fade-right"></left>
+
+<div class="right">
+
+
+<h2>The future has arrived.</h2>
+<br>
+
+<p data-aos="fade-down">While we can't predict the future, we can inspire it. So what will our cars look like and how will they function? Will we drive them or will they drive us? That seems to be the question on everyone's mind. Well, we have an idea. Cars are for people who want to go to more places safely and efficiently</p>
+
+</div>
+
+<center><button type="submit">Learn More</button></center>
+
+<div class="cars" data-aos="fade-left">
+
+<img src="https://images01.nicepage.com/09/4e/094e953db5791c71cbf6cb2692c9da18.jpeg" alt="model 230QR-8" width="800px" height="400px"></div>
+
+<h2>Less of a machine.
+More of a pal.</h2>
+
+<p>Concept-i follows our belief that vehicles shouldn't start with technology—they should start,<br> and end, with the experience of the people who use them. Therefore, Concept-i was built from the inside out, <br>with a focus on making it immersive, energetic and, most importantly—approachable.</p>
+
+<button type="submit">More Design</button>
+<br><br>
+
+<img src="https://images01.nicepage.com/8b/e8/8be8de663c4ab7eee8b3e53c31cbb581.jpeg" alt="models" width="800px" height="400px" data-aos="fade-right">
+
+<div class="left">
+
+
+<p>At the 2016 Consumer Electronics Show (CES) in Las Vegas, Toyota is demo’ing it’s idea of the “Future of Mobility”. As has become plainly obvious over the last couple years, Toyota believes plug-in vehicles will fail and that fuel cell EV’s are the future. While other companies are at CES showing off battery based EV’s, Toyota is sticking with their fuel cells.
+</p>
+
+</div>
+
+<h2>Neue Toyota Concept Cars in Tokio</h2>
+
+<center><button type="submit">See More</button></center>
+
+<img src="https://images01.nicepage.com/4c/13/4c134e2df3106c5e28f93f94161e3242.png" alt="I-SERIES" width="1200px" height="400px" data-aos="zoom-in-left">
+
+<h1>Concept-i looks as brilliant</h1>
+
+<p>Its minimal yet artful interior is designed to help support its user experience. Lines flow from the center of the dashboard throughout the vehicle,<br> while Yui travels around them, using light, sound and even touch to communicate critical information.<br> It utilizes a single wide-screen, 3-D, full-color Head-Up Display that blends into an interior that is clean and uncluttered.</p>
+
+<center><button type="submit">Learn More</button></center>
+
+<img class="slide" src="https://images01.nicepage.com/5c/a4/5ca4eb0fe5123ec0b4e42bfc8e44ced5.jpeg" alt="modify" width="900px" height="500px" data-aos="fade-right">
+
+<h3>Join us in the future.</h3>
+
+<div class="check">
+
+<p>Check out the recent unveiling of Toyota Concept-i at CES 2017.<br> And if you want even more info, check out our recent press release.</p>
+
+</div>
+
+<center><button type="submit">Concept</button></center>
+
+   <p  data-aos="fade-down-left">In the future, we envision you, Yui and the car working together—like teammates. Now, here comes the really fun part. Thanks to the car's advanced automated driving technologies, people with all levels of ability can enjoy the ride. You're still in charge of the car. However, through biometric sensors throughout the car, Concept-i can detect what you're feeling. That information then gets analyzed by the car's AI. That's when the automated features kick in.</p>
+
+
+                    <h2>Concept-i puts the “i” in team.</h2>
+
+                   <button type="submit">Know More</button>
+
+
+             <h2>Join the featuer</h2>
+
+             <p>Our vision for the car of the future starts with "Yui."Designed from the inside out, Toyota Concept-i is an exciting glimpse into a future mobility that is warm, friendly and revolves around you.
+
+</p>
+
+       <div class="name" data-aos="fade-left">
+
+       <figure>
+       <img src=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjCtQzHNKJrWdO8h80rNCigMIrYIDPyNOTwg&usqp=CAU alt="car" width="300px" height="200px">&nbsp;&nbsp;&nbsp;<figcaption style="color:purple;font-size:20PX; font-style:italic">CONCEPT I-SERIES</figcaption></figure></div>
+
+
+        <div class="name" data-aos="fade-left">
+       <figure>
+       <img src=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTASbSzvTckJNiT_JyLAmC6a-f7vFK3ej3AlQ&usqp=CAU alt="car" width="300px" height="200px">&nbsp;&nbsp;&nbsp;<figcaption style="color:purple;font-size:20PX; font-style:italic">Interior Design</figcaption></figure></div>
+    
+
+      <div class="name" data-aos="fade-left" >
+      <figure>
+       <img src=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmOFhG-NB2RYty9awd0bPjK9uRed-ObyMhYQ&usqp=CAU alt="car" width="300px" height="200px">&nbsp;&nbsp;&nbsp;<figcaption style="color:purple;font-size:20PX; font-style:italic">Side View</figcaption></figure></div>
+
+       <div class="name" data-aos="fade-left">
+      <figure>
+       <img src=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3erD0xO4PEbcm22Fo1A2GE1fmGSlPI1URXA&usqp=CAU alt="car" width="300px" height="200px">&nbsp;&nbsp;&nbsp;<figcaption style="color:purple;font-size:20PX; font-style:italic">Dynamic Featuers</figcaption></figure></div>
+
+
+       <div class="name" data-aos="fade-right">
+       <figure>
+       <img src=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvF_xzOmz2DW81OfphKZ5UGwWx5kFE-K6haw&usqp=CAU alt="car" width="300px" height="200px">&nbsp;&nbsp;&nbsp;<figcaption style="color:purple;font-size:20PX; font-style:italic">featuer New look</figcaption></figure></div>
+ 
+
+        <div class="name" data-aos="fade-right">
+        <figure>
+       <img src=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTvkWdUwc43xahXY12sATzdQTuwtk13GCHgw&usqp=CAU alt="car" width="300px" height="200px">&nbsp;&nbsp;&nbsp;<figcaption style="color:purple;font-size:20PX; font-style:italic">Designed I-SERIES</figcaption></figure></div>
+      
+
+      <div class="name" data-aos="fade-right">
+      <figure>
+       <img src=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSi-8LHMbx4mLs6TZstzkhMbQeBIXPu1tE5lw&usqp=CAU alt="car" width="300px" height="200px">&nbsp;&nbsp;&nbsp;<figcaption style="color:purple;font-size:20PX; font-style:italic">Sliding gears</figcaption></figure></div>
+
+
+       <div class="name" data-aos="fade-right">
+      <figure>
+       <img src=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbXpMj6XAdV2yXfv2puOdtLQUeiwiRIWmh4A&usqp=CAU alt="car" width="300px" height="200px">&nbsp;&nbsp;&nbsp;<figcaption style="color:purple;font-size:20PX; font-style:italic">Back View</figcaption></figure></div>
+
+
+<div class="ass" >
+
+          <center><img id="flip" src="https://images01.nicepage.com/37/29/37296cc26cc11a0fe94853b94e0ea48f.png" width="200px" height="200px"></center>
+
+   <div id="head1">
+          <h4>Toyota</h4>
+          <p>Next Generation OF cars</p>
+      </div>
+          
+        <div id="head2">
+
+           <h4>Toyota</h4>
+          <p>UnRealistic Featuers</p>
+      </div><br><br><br>
+
+
+         
+         <center><div class="head3">
+
+        <h4>Toyota</h4>
+
+          <p>Tata Motors</p>
+
+           </div></center>
+           <br><br>
+
+        <center><a href=""><img src="https://pngimg.com/uploads/facebook_logos/facebook_logos_PNG19757.png" alt="facebook"
+                    width="30px" height="30px"></a>&nbsp;&nbsp;&nbsp;&nbsp;
+                    
+                    <a href=""><img src="https://pluspng.com/img-png/twitter-png-logo-twitterbird-1528.png" alt="Twitter"
+                     width="30px" height="30px"></a>&nbsp;&nbsp;&nbsp;&nbsp;
+
+                    <a href=""><img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.JtmXSh_uyZBaTg1eXd-NtgHaHa%26pid%3DApi&f=1"
+                     alt="Insta" width="30px" height="30px"></a>&nbsp;&nbsp;&nbsp;&nbsp;
+
+                    <a href=""><img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.FULyCAEByEOl2xOgUWHnQgHaFO%26pid%3DApi&f=1" alt="youtube"
+                     width="30px" height="30px"></a></center> 
+
+      </div>
+               
+             
+
+              <center><a href=""><footer>~@TataMotors 2022~</a><br>
+
+          <a href="">~All India Rights Reserved~</footer></a><br></center>
+
+<script>
+
+var myIndex = 0;
+quant();
+
+function quant() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";  
+     }
+     
+  myIndex++;
+     if (myIndex > x.length) {myIndex = 1}    
+     x[myIndex-1].style.display = "block";  
+     setTimeout(quant, 2000);    
+    }
+
+</script>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init({
+    offset:200,
+    duration:900
+  });
+</script>
+
+</div>
+
+</body>
+</html>
